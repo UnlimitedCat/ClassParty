@@ -1,5 +1,5 @@
 ###初学练手项目
 
-预览页：
-[Github Pages](https://orokin.github.io/ClassParty/)
+预览：
+[ju17](https://orokin.github.io/ClassParty/)
 
