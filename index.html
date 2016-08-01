@@ -16,7 +16,7 @@
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="background-color: #836">
+  <body style="background-color: #0c9">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>-->
@@ -32,13 +32,18 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="http://www.atool.org/placeholder.png?size=1200x600&text=1&&bg=836&fg=fff" width="100%" alt="1">
+          <img src="img/common/index-2.png" width="100%">
           <div class="carousel-caption">
+            <h2>YOUTH NEVER DROPS AWAY.</h2>
           </div>
         </div>
         <div class="item">
-          <img src="http://www.atool.org/placeholder.png?size=1200x600&text=2&&bg=836&fg=fff" width="100%" alt="2">
-          <div class="carousel-caption">  
+          <img src="img/common/index-1.png" width="100%">
+          <div class="carousel-caption">
+            <h1>聚一起</h1>
+            <br />
+            <button class="btn btn-success btn-lg">登录</button>
+            <button class="holder btn btn-danger btn-lg">注册</button>
           </div>
         </div>
       </div>
@@ -53,10 +58,11 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <SCRIPT LANGUAGE="JavaScript">
+    <script type="text/javascript">
+      $(".item").height($(window).height());
       $(window).resize(function(){
-        $("body").width($(document).width()).height($(document).height());
-      }
-    </SCRIPT>
+        $(".item").height($(window).height());
+      });
+    </script>
   </body>
 </html>
